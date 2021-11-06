@@ -28,21 +28,21 @@ registerbtn.addEventListener('click', () => {
     }
 
 
-    const phoneInput = $('phoneInput');
-    const phoneValue = phoneInput.value;
-    const reExPattern = /(\(\+\d{2}\))?(\d{3,4})\-(\d{3})\-(\d{3})/;
+    // const phoneInput = $('phoneInput');
+    // const phoneValue = phoneInput.value;
+    // const reExPattern =
 
 
 
-    if (!reExPattern.test(phoneValue)) {
-        $('phoneMSG').innerHTML = "  <span class =  'text-danger'> điền lại nào </span>  ";
+    //     if (!reExPattern.test(phoneValue)) {
+    //         $('phoneMSG').innerHTML = "  <span class =  'text-danger'> điền lại nào </span>  ";
 
 
-    } else {
-        $('phoneMSG').innerHTML = "  <span class =  'text-success'> quá đỉnh  </span>  ";
+    //     } else {
+    //         $('phoneMSG').innerHTML = "  <span class =  'text-success'> quá đỉnh  </span>  ";
 
 
-    }
+    //     }
 
 
     const countrySelect = $('countrySelect');
