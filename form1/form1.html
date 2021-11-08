@@ -56,31 +56,19 @@
                 <div class="col-6" id="schoolSelectMSG"> </div>
 
             </div>
-
-            <class class="mb-3 row">
+            <div class="row mb-3">
                 <label for="ageRange" class="col-sm-2 col-form-label">Age</label>
-                <div class="col-sm-10">
-                    <div class="range">
-                        <div class="sliderValue">
-                            <span>50</span>
-                        </div>
-                        <div class="field">
-                            <div class="value left">
-                                15
-                            </div>
-                            <input type="range" min="15" max="50" value="" steps="1" id="ageRange">
-                            <div class="value right">
-                                50
-                            </div>
-                        </div>
-                    </div>
-
-
-
+                <div class="col-sm-4">
+                    <input type="range" class="form-range" min="15" max="50" value="18" id="ageRange">
                 </div>
-                <div class="col-4"></div>
-                <div class="col-6" id="ageMSG"> </div>
-            </class>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" value="18" id="agePerform" disabled>
+                </div>
+                <div class="col-sm-5">
+                    <p id="ageMsg"></p>
+                </div>
+            </div>
+
 
             <div class="mb-3 row">
                 <label class="col-sm-2 col-form-label">Gender </label>
@@ -130,7 +118,6 @@
                         <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="otherCheckbox" value="other">
                         <label class="form-check-label" for="textCheckbox">Other </label>
                     </div>
-
 
                 </div>
                 <div class="col-4"></div>
