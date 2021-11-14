@@ -15,7 +15,7 @@ const fullNameInputVal = () => {
     }
     return isNameValid;
 };
-//valid email
+
 const emailInputVal = () => {
     const emailInput = $("emailInput");
     const emailValue = emailInput.value;
