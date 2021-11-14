@@ -1,6 +1,4 @@
-// $("ageInput").setAttribute("value", "18");
-// $("male").setAttribute("checked", "");
-// //valid  fullname
+
 
 const fullNameInputVal = () => {
     const fullNameInput = $("fullNameInput");
